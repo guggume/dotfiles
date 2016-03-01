@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # PATH
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="~/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export EDITOR='subl -w'
 
 # Owner
@@ -21,3 +21,4 @@ alias gc='git commit'
 alias gg='git commit -a --amend'
 alias gd='git diff'
 alias go='git checkout'
+eval "$(rbenv init -)"
