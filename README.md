@@ -1,3 +1,3 @@
 # Get started
 
-Follow the link [link] (http://sourabhbajaj.com/mac-setup/ 'Mac Setup')
+Follow the link [Mac Setup] (http://sourabhbajaj.com/mac-setup/)
