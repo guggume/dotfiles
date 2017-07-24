@@ -1,6 +1,6 @@
 Follow the link [Mac Setup](http://sourabhbajaj.com/mac-setup/)
 ### Install `Spectacle`
-- Download Spectacle from [here](https://www.spectacleapp.com/)
+Download Spectacle from [here](https://www.spectacleapp.com/)
 
 ### Create `workspace` directory
 ```shell
