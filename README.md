@@ -1,4 +1,7 @@
 Follow the link [Mac Setup](http://sourabhbajaj.com/mac-setup/)
+### Install `Spectacle`
+Download Spectacle from [here](https://www.spectacleapp.com/)
+
 ### Create `workspace` directory
 ```shell
 mkdir workspace
@@ -39,8 +42,9 @@ brew upgrade
 ### Install `Git`
 ```shell
 brew install git
-
-# symlink .gitconfig to this repository
+```
+> symlink `.gitconfig`
+```shell
 cd ~
 ln -s ~/dotfiles/.gitconfig .
 ```
@@ -87,7 +91,6 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'git' \
   'syntax-highlighting' \
-  'history-substring-search' \
   'prompt'
 ```
 > Change theme to `paradox`
