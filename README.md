@@ -2,6 +2,14 @@ Follow the link [Mac Setup](http://sourabhbajaj.com/mac-setup/)
 ### Install `Spectacle`
 Download Spectacle from [here](https://www.spectacleapp.com/)
 
+### Install `Sublime`
+Download Sublime from [here](http://www.sublimetext.com/)
+
+> Create a shortcut so we can launch Sublime Text from the command-line
+```shell
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+```
+
 ### Create `workspace` directory
 ```shell
 mkdir workspace
