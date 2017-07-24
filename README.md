@@ -2,7 +2,7 @@ Follow the link [Mac Setup] (http://sourabhbajaj.com/mac-setup/)
 
 ### Install iTerm
 - [iTerm](https://iterm2.com/downloads/stable/latest)
-- Color Scheme: [Solarized Dark High Contrast](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20Higher%20Contrast.itermcolors)
+- Color Scheme: [Solarized Dark High Contrast](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20Higher%20Contrast.itermcolors) included in Preferences file.
 - Preferences: Open iTerm Preferences
   * General -> Preferences -> Load preferences from custom folder or URL
     - Select `com.googlecode.iterm2.plist` from the repository.
