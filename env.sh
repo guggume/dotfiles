@@ -6,6 +6,9 @@ export USER_NAME="Sandeep Gunduboyina"
 # PATH
 export EDITOR='subl -w'
 
+# auto loads node version from .nvmrc file
+export NVM_AUTO_USE=true
+
 # FileSearch
 function f() { find . -iname "*$1*" ${@:2} }
 function r() { grep "$1" ${@:2} -R . }
