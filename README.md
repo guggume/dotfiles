@@ -4,6 +4,15 @@ Follow the link [Mac Setup](http://sourabhbajaj.com/mac-setup/)
 mkdir workspace
 ```
 
+### Install `XCode`
+
+Install Xcode from the App store or the Apple developer website.
+
+#### For installing Xcode command line tools run the command
+```shell
+xcode-select --install
+```
+
 ### Install `Homebrew`
 ```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -33,12 +42,3 @@ brew upgrade
   * General -> Preferences -> Load preferences from custom folder or URL
     - Select `com.googlecode.iterm2.plist` from the repository.
     
-
-### Install `XCode`
-
-Install Xcode from the App store or the Apple developer website.
-
-#### For installing Xcode command line tools run the command
-```shell
-xcode-select --install
-```
