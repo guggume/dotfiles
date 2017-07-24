@@ -4,6 +4,11 @@ Follow the link [Mac Setup](http://sourabhbajaj.com/mac-setup/)
 mkdir workspace
 ```
 
+### Install `Homebrew`
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 ### Install `iTerm`
 - Download latest stable iTerm from [here](https://iterm2.com/downloads/stable/latest)
 - Color Scheme: [Solarized Dark High Contrast](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20Higher%20Contrast.itermcolors), included in Preferences file.
