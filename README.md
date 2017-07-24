@@ -47,3 +47,8 @@ brew upgrade
 brew install zsh zsh-completions
 ```
 
+### Change shell from `bash` to `zsh`
+```shell
+chsh -s /usr/local/bin/zsh
+```
+> You must log out and log back in to see this change.
