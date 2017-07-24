@@ -1,4 +1,4 @@
-Follow the link [Mac Setup] (http://sourabhbajaj.com/mac-setup/)
+Follow the link [Mac Setup](http://sourabhbajaj.com/mac-setup/)
 ### Create `workspace` directory
 ```shell
 mkdir workspace
