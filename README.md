@@ -39,8 +39,9 @@ brew upgrade
 ### Install `Git`
 ```shell
 brew install git
-
-# symlink .gitconfig to this repository
+```
+> symlink `.gitconfig`
+```shell
 cd ~
 ln -s ~/dotfiles/.gitconfig .
 ```
