@@ -141,3 +141,8 @@ nvm use `stable|version `
 
 # Use .nvmrc file in repository to auto load node when changing directory
 ```
+
+### Install `yarn` without installing `node`
+```shell
+brew install yarn --ignore-dependencies
+```
