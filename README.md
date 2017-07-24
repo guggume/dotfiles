@@ -10,6 +10,8 @@ Download Sublime from [here](http://www.sublimetext.com/)
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
+> Install `Package control` from [here](https://packagecontrol.io/installation)
+
 ### Create `workspace` directory
 ```shell
 mkdir workspace
