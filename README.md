@@ -17,6 +17,7 @@ xcode-select --install
 ```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+>Insert `/usr/local/bin` to the first line of `/private/etc/paths` and reboot the Mac
 
 ```shell
 # Fetch the newest version of Homebrew and all formulae from GitHub using
