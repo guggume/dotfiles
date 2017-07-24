@@ -17,6 +17,7 @@ xcode-select --install
 ```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+>Insert `/usr/local/bin` to the first line of `/private/etc/paths` and reboot the Mac
 
 ```shell
 # Fetch the newest version of Homebrew and all formulae from GitHub using
@@ -35,6 +36,15 @@ brew upgrade [formulae]
 brew upgrade
 ```
 
+### Install `Git`
+```shell
+brew install git
+
+# symlink .gitconfig to this repository
+cd ~
+ln -s ~/dotfiles/.gitconfig .
+```
+
 ### Install `iTerm`
 - Download latest stable iTerm from [here](https://iterm2.com/downloads/stable/latest)
 - Color Scheme: [Solarized Dark High Contrast](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20Higher%20Contrast.itermcolors), included in Preferences file.
@@ -42,3 +52,18 @@ brew upgrade
   * General -> Preferences -> Load preferences from custom folder or URL
     - Select `com.googlecode.iterm2.plist` from the repository.
     
+### Install `ZSH`
+```shell
+brew install zsh zsh-completions
+```
+
+### Change shell from `bash` to `zsh`
+```shell
+chsh -s /usr/local/bin/zsh
+```
+> You must log out and log back in to see this change.
+
+### Install `Prezto`
+```shell
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+```
