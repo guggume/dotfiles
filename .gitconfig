@@ -3,3 +3,5 @@
 	email = sandeep@guggu.me
 [core]
 	excludesfile = ~/dotfiles/.gitignore
+[credential]
+	helper = osxkeychain
