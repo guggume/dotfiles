@@ -1,4 +1,8 @@
 Follow the link [Mac Setup] (http://sourabhbajaj.com/mac-setup/)
+### Create `workspace` directory
+```shell
+mkdir workspace
+```
 
 ### Install iTerm
 - [iTerm](https://iterm2.com/downloads/stable/latest)
