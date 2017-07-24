@@ -55,7 +55,7 @@ ln -s ~/dotfiles/.gitconfig .
 - Preferences: Open iTerm Preferences
   * General -> Preferences -> Load preferences from custom folder or URL
     - Select `com.googlecode.iterm2.plist` from the repository.
-    
+
 ### Install `ZSH`
 ```shell
 brew install zsh zsh-completions
@@ -102,4 +102,34 @@ zstyle ':prezto:module:prompt' theme 'paradox'
 ```shell
 # Add env.sh
 source ~/dotfiles/env.sh
+```
+
+### Install nvm as zsh plugin `zsh-nvm`
+```shell
+git clone https://github.com/lukechilds/zsh-nvm.git ~/.zsh-nvm
+
+```
+> Then source it by editing `.zshrc`
+```shell
+source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+```
+
+> NVM tips
+```shell
+# Upgrade nvm
+nvm upgrade
+
+# List all available node versions installed
+nvm ls
+
+# List v8 node versions available on remote
+nvm ls-remote `v8`
+
+# Install node stable or version specified
+nvm install `stable|version`
+
+# Use stable or version specified
+nvm use `stable|version `
+
+# Use .nvmrc file in repository to auto load node when changing directory
 ```
