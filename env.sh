@@ -4,8 +4,6 @@
 export USER_NAME="Sandeep Gunduboyina"
 
 # PATH
-export PATH="~/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin"
-export ANDROID_HOME="/usr/local/opt/android-sdk"
 export EDITOR='subl -w'
 
 # FileSearch

@@ -2,4 +2,4 @@
 	name = Sandeep Gunduboyina
 	email = sandeep@guggu.me
 [core]
-	excludesfile = ~/GitHub/dotfiles/.gitignore
+	excludesfile = ~/dotfiles/.gitignore
