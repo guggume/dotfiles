@@ -67,3 +67,36 @@ chsh -s /usr/local/bin/zsh
 ```shell
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 ```
+> Next create the `~/.zshrc` file by running
+```shell
+setopt EXTENDED_GLOB
+for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+done
+```
+> Add modules by editing the `~/.zpreztorc` file
+```shell
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'history' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'completion' \
+  'git' \
+  'syntax-highlighting' \
+  'history-substring-search' \
+  'prompt'
+```
+> Change theme to `paradox`
+```shell
+zstyle ':prezto:module:prompt' theme 'paradox'
+```
+
+> Source `env.sh` by editing `~/.zshrc`
+```shell
+# Add env.sh
+source ~/dotfiles/env.sh
+```
