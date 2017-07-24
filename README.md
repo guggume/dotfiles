@@ -52,3 +52,8 @@ brew install zsh zsh-completions
 chsh -s /usr/local/bin/zsh
 ```
 > You must log out and log back in to see this change.
+
+### Install `Prezto`
+```shell
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+```
