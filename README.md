@@ -88,7 +88,6 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'git' \
   'syntax-highlighting' \
-  'history-substring-search' \
   'prompt'
 ```
 > Change theme to `paradox`
