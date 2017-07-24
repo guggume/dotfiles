@@ -36,6 +36,15 @@ brew upgrade [formulae]
 brew upgrade
 ```
 
+### Install `Git`
+```shell
+brew install git
+
+# symlink .gitconfig to this repository
+cd ~
+ln -s ~/dotfiles/.gitconfig .
+```
+
 ### Install `iTerm`
 - Download latest stable iTerm from [here](https://iterm2.com/downloads/stable/latest)
 - Color Scheme: [Solarized Dark High Contrast](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20Higher%20Contrast.itermcolors), included in Preferences file.
