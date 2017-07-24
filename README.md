@@ -6,7 +6,7 @@ mkdir workspace
 
 ### Install `XCode`
 
-Install Xcode from the App store or the Apple developer website.
+Install Xcode from the App store.
 
 #### For installing Xcode command line tools run the command
 ```shell
