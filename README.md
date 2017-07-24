@@ -42,3 +42,8 @@ brew upgrade
   * General -> Preferences -> Load preferences from custom folder or URL
     - Select `com.googlecode.iterm2.plist` from the repository.
     
+### Install `ZSH`
+```shell
+brew install zsh zsh-completions
+```
+
