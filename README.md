@@ -61,6 +61,12 @@ brew upgrade
 ```shell
 brew install git
 ```
+
+> Generate ssh key and add to the server
+```shell
+ssh-keygen -t rsa -C "sandeep@guggu.me"
+```
+
 > symlink `.gitconfig`
 ```shell
 cd ~
