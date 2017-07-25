@@ -1,6 +1,7 @@
 Follow the link [Mac Setup](http://sourabhbajaj.com/mac-setup/)
 ### Install `Spectacle`
 Download Spectacle from [here](https://www.spectacleapp.com/)
+> Set `Spectacle` to run as background application in Preferences
 
 ### Install `Sublime`
 Download Sublime from [here](http://www.sublimetext.com/)
