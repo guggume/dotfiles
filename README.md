@@ -12,6 +12,13 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 
 > Install `Package control` from [here](https://packagecontrol.io/installation)
 
+> Symlink sublime package settings
+```shell
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+rm -r User
+ln -s ~/dotfiles/sublime/User
+```
+
 ### Create `workspace` directory
 ```shell
 mkdir workspace
