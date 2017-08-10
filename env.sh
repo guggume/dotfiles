@@ -1,5 +1,9 @@
 #!/bin/zsh
 
+# Set loacale
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # Owner
 export USER_NAME="Sandeep Gunduboyina"
 
