@@ -19,6 +19,8 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 # arcanist to path
 export PATH=$PATH:~/arc/arcanist/bin
+# imagemagic
+export MAGICK_HOME=/usr/local/opt/imagemagick\@6
 
 # FileSearch
 function f() { find . -iname "*$1*" ${@:2} }
