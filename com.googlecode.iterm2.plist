@@ -270,10 +270,19 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 139 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>439 239 918 512 0 0 1440 877 </string>
+	<string>276 215 918 512 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 5 1440 872 0 0 1440 877 </string>
+	<string>0 400 650 477 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>176 70 650 477 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -918,19 +927,44 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>~/workspace</string>
+			<string>~/workspace/cueteacherreact</string>
 		</dict>
 	</array>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>DEFEF0B5-7A0C-4234-A9EF-059E55892CD5</string>
+	<string>728A9134-C414-441D-86CA-F24686833643</string>
+	<key>NoSyncLastTipTime</key>
+	<real>525779287.50937903</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>522585128.83517998</real>
+	<real>523265157.528651</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+	</array>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -965,17 +999,17 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/sandy/dotfiles</string>
+	<string>/Users/sandeepg/dotfiles</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=89</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=32</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-07-24T10:33:38Z</date>
+	<date>2017-08-30T13:22:44Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SerializeOpeningMultipleFullScreenWindows</key>
