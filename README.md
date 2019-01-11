@@ -57,6 +57,12 @@ brew upgrade [formulae]
 brew upgrade
 ```
 
+### Install `Cocoapods`
+```shell
+brew update
+brew install cocoapods
+```
+
 ### Install `Git`
 ```shell
 brew install git

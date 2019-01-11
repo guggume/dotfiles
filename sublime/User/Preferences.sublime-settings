@@ -3,6 +3,7 @@
 	"folder_exclude_patterns":
 	[
 		"node_modules",
+		"dist",
 		".svn",
 		".git",
 		".DS_Store",
@@ -27,14 +28,14 @@
 		"build"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 15,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"rulers":
 	[
-		80
+		100
 	],
 	"tab_size": 2,
 	"theme": "Boxy Ocean.sublime-theme",
