@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+physics.newJoint( "wheel", ${1:object1}, ${2:object2}, ${3:anchorX}, ${4:anchorY}, ${5:axisDistanceX}, ${6:axisDistanceY} )
+]]></content>
+    <scope>source.lua</scope>
+    <description>Wheel Joint</description>
+</snippet>

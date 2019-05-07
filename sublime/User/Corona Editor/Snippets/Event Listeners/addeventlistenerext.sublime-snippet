@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+local function ${3:callbackFunction}( event )
+	$4
+end
+${1:obj}:addEventListener("${2:event}", ${3:callbackFunction} )
+]]></content>
+    <scope>source.lua</scope>
+    <description>Expand to addEventListener</description>
+</snippet>

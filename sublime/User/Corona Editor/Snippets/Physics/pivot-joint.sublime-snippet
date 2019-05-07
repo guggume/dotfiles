@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+physics.newJoint( "pivot", ${1:object1}, ${2:object2}, ${3:anchorX}, ${4:anchorY} )
+]]></content>
+    <scope>source.lua</scope>
+    <description>Pivot Joint</description>
+</snippet>

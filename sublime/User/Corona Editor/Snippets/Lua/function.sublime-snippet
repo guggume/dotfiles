@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local function ${1:name}(${2:args})
+	$3
+end
+]]></content>
+    <scope>source.lua</scope>
+    <description>function definition</description>
+</snippet>

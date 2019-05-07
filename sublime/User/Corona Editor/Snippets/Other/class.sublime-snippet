@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+local ${1:Class} = {}
+
+function ${1:Class}:new( o )
+	o = o or {}
+	setmetatable( o, self )
+	self.__index = self
+	return o
+end
+
+return ${1:Class}
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.lua</scope>
+    <description>Create a Class stub</description>
+</snippet>

@@ -25,7 +25,10 @@
 		"*.idb",
 		"*.psd",
 		"migrations",
-		"build"
+		"build",
+		".next",
+		".idea",
+		".gradle"
 	],
 	"font_face": "Source Code Pro",
 	"font_size": 13,
@@ -35,7 +38,7 @@
 	],
 	"rulers":
 	[
-		100
+		90
 	],
 	"tab_size": 2,
 	"theme": "Boxy Ocean.sublime-theme",

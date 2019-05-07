@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local ${1:timerid} = timer.performWithDelay(${2:delay}, function()
+	$3
+end)
+]]></content>
+    <scope>source.lua</scope>
+    <description>Timer function</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Runtime:removeEventListener("system", ${3:callbackFunction} )
+]]></content>
+    <scope>source.lua</scope>
+    <description>system</description>
+</snippet>

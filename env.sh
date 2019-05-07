@@ -15,6 +15,7 @@ export NVM_AUTO_USE=true
 
 # android
 export ANDROID_HOME=$HOME/Library/Android/sdk
+export NDK_ROOT=$HOME/Library/Android/sdk/ndk-bundle
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 # arcanist to path

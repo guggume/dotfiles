@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Runtime:addEventListener("inputDeviceStatus", ${3:callbackFunction} )
+]]></content>
+    <scope>source.lua</scope>
+    <description>inputDeviceStatus</description>
+</snippet>

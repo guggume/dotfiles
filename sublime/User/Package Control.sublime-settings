@@ -6,18 +6,23 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"AceJump",
 		"Babel",
 		"Boxy Theme",
 		"Case Conversion",
+		"Corona Editor",
 		"Dockerfile Syntax Highlighting",
 		"ESLint",
 		"Git blame",
 		"GitGutter",
+		"JsPrettier",
 		"MarkdownPreview",
 		"Package Control",
 		"React ES6 Snippets",
 		"Sass",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
 		"TrailingSpaces"
 	]
 }

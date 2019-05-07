@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+physics.newJoint( "piston", ${1:object1}, ${2:object2}, ${3:anchorX1}, ${4:anchorY1}, ${5:axisDistanceX}, ${6:axisDistanceY} )
+]]></content>
+    <scope>source.lua</scope>
+    <description>Piston Joint</description>
+</snippet>

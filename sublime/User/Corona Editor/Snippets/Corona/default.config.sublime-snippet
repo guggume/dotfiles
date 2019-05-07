@@ -1,0 +1,40 @@
+<snippet>
+    <content><![CDATA[
+
+application =
+{
+
+	content =
+	{
+		width = ${1:640},
+		height = ${2:960}, 
+		scale = ${3:letterbox},
+		fps = ${4:30},
+		
+		--[[
+		imageSuffix =
+		{
+			    ["@2x"] = 2,
+		},
+		--]]
+	},
+
+	--[[
+	-- Push notifications
+	notification =
+	{
+		iphone =
+		{
+			types =
+			{
+				"badge", "sound", "alert", "newsstand"
+			}
+		}
+	},
+	--]]    
+}
+
+]]></content>
+	<scope>source.lua</scope>
+	<description>config.lua Template</description>
+</snippet>

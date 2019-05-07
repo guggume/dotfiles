@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:obj}:removeEventListener("sprite", ${3:callbackFunction} )
+]]></content>
+    <scope>source.lua</scope>
+    <description>sprite</description>
+</snippet>

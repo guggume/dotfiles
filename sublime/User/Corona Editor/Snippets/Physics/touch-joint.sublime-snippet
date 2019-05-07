@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+physics.newJoint( "touch", ${1:object1}, ${2:targetX}, ${3:targetY} )
+]]></content>
+    <scope>source.lua</scope>
+    <description>Touch Joint</description>
+</snippet>
