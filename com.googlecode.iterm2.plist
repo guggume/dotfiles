@@ -282,7 +282,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>370 208 700 622 0 0 1440 900 </string>
+	<string>1571 1110 700 622 1440 147 1080 1920 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1593 634 606 469 1440 147 1080 1897 </string>
 	<key>NSWindow Frame SharedPreferences</key>
@@ -1086,13 +1086,15 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-12-07T15:11:13Z</date>
+	<date>2019-05-06T10:24:50Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SUSkippedVersion</key>
+	<string>3.2.9</string>
 	<key>SerializeOpeningMultipleFullScreenWindows</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>UseBorder</key>
@@ -1102,6 +1104,6 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.2.6</string>
+	<string>3.2.8</string>
 </dict>
 </plist>
