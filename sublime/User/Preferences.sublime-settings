@@ -29,11 +29,11 @@
 		".next",
 		".idea",
 		".gradle",
-		"android",
-		"ios"
+		// "android",
+		"venv"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 13,
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"Vintage"
