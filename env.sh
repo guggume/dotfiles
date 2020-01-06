@@ -8,22 +8,32 @@ export LANG=en_US.UTF-8
 export USER_NAME="Sandeep Gunduboyina"
 
 # PATH
-export EDITOR='subl -w'
+export EDITOR='code -w'
 
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 # auto loads node version from .nvmrc file
 export NVM_AUTO_USE=true
 
 # android
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export NDK_ROOT=$HOME/Library/Android/sdk/ndk-bundle
+export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 # arcanist to path
-export PATH=$PATH:~/arc/arcanist/bin
+export PATH=$PATH:~/arcanist/bin
+# arcanist completions
+source ~/arcanist/resources/shell/bash-completion
+
 # imagemagic
 export MAGICK_HOME=/usr/local/opt/imagemagick\@6
 
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # FileSearch
 function f() { find . -iname "*$1*" ${@:2} }
@@ -45,5 +55,3 @@ alias stackdown='cd ~/workspace/swarmfiles/development/compose/ && docker-compos
 
 export PGPORT_DEV=5507
 export VAULT_AUTH_KEY='9d66f7dc-9b4c-05f5-6df5-ace2ee519285'
-# arcanist completions
-source ~/arc/arcanist/resources/shell/bash-completion

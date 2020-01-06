@@ -2,6 +2,6 @@
 	name = Sandeep Gunduboyina
 	email = guggu.git@gmail.com
 [core]
-	excludesfile = ~/dotfiles/.gitignore
+	excludesfile = ~/myspace/dotfiles/.gitignore
 [credential]
 	helper = osxkeychain
